@@ -1,4 +1,4 @@
-# $Rev: 3355 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3355 $, $Date: 2005-08-27 17:42:47 $
 #
 Summary:	luit application
 Summary(pl):	Aplikacja luit
@@ -17,7 +17,7 @@ BuildRequires:	automake
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-lib-libfontenc-devel
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig >= 0.19
 BuildRoot:	%{tmpdir}/luit-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
