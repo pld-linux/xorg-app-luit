@@ -1,12 +1,12 @@
 Summary:	luit application
 Summary(pl):	Aplikacja luit
 Name:		xorg-app-luit
-Version:	0.99.2
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/luit-%{version}.tar.bz2
-# Source0-md5:	7b710538c3b7ebe52a2fa87ef84c063f
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/luit-%{version}.tar.bz2
+# Source0-md5:	fbe44e739590d3d73f711bfc8a0e33fd
 Patch0:		xorg-luit-freebsd.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
@@ -47,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1x*
