@@ -1,5 +1,5 @@
 Summary:	luit application
-Summary(pl):	Aplikacja luit
+Summary(pl.UTF-8):   Aplikacja luit
 Name:		xorg-app-luit
 Version:	1.0.2
 Release:	1
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 luit application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja luit.
 
 %prep
