@@ -1,5 +1,5 @@
 Summary:	luit application
-Summary(pl.UTF-8):   Aplikacja luit
+Summary(pl.UTF-8):	Aplikacja luit
 Name:		xorg-app-luit
 Version:	1.0.2
 Release:	1
