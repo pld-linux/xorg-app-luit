@@ -1,5 +1,5 @@
-Summary:	luit application
-Summary(pl.UTF-8):	Aplikacja luit
+Summary:	luit application - locale and ISO 2022 support for Unicode terminals
+Summary(pl.UTF-8):	Aplikacja luit - obsługa lokalizacji i ISO 2022 dla terminali unikodowych
 Name:		xorg-app-luit
 Version:	1.0.2
 Release:	1
@@ -19,10 +19,16 @@ BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-luit application.
+luit is a filter that can be run between an arbitrary application and
+a UTF-8 terminal emulator. It will convert application output from the
+locale's encoding into UTF-8, and convert terminal input from UTF-8
+into the locale's encoding.
 
 %description -l pl.UTF-8
-Aplikacja luit.
+luit to filtr, który można uruchomić między dowolną aplikacją a
+emulatorem terminala UTF-8. Konwertuje wyjście z aplikacji z kodowania
+lokalizacji do UTF-8 oraz wejście terminala z UTF-8 do kodowania
+lokalizacji.
 
 %prep
 %setup -q -n luit-%{version}
