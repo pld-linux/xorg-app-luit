@@ -1,19 +1,19 @@
 Summary:	luit application - locale and ISO 2022 support for Unicode terminals
 Summary(pl.UTF-8):	Aplikacja luit - obsługa lokalizacji i ISO 2022 dla terminali unikodowych
 Name:		xorg-app-luit
-Version:	1.0.5
+Version:	1.1.0
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/luit-%{version}.tar.bz2
-# Source0-md5:	fd8579a993c4480978e3504a4c53c189
+# Source0-md5:	cb9377b09e562e4084cc614a44df2641
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-lib-libfontenc-devel
-BuildRequires:	xorg-util-util-macros >= 1.4
+BuildRequires:	xorg-util-util-macros >= 1.8
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
